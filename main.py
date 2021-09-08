@@ -57,7 +57,7 @@ class Caculadora(QMainWindow):
             'background: #0095ff; color: #fff; font-weight: 700'
 
            )
-       self.addBTN(QPushButton('x'), 4, 3, 1, 1)
+       self.addBTN(QPushButton('*'), 4, 3, 1, 1)
 
        self.setCentralWidget(self.cw)
 
